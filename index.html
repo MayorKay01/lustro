@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090a12">
+  <meta name="description" content="Meet Lustro — the calm, connected workspace for ambitious teams.">
+  <title>Lustro — Product Launch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="deck" id="deck">
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <header class="chrome">
+      <a class="wordmark" href="#slide-1" aria-label="Lustro home"><span class="brand-glyph">L</span><span>LUSTRO</span></a>
+      <div class="top-progress" id="topProgress" role="progressbar" aria-label="Presentation progress" aria-valuemin="1" aria-valuemax="9" aria-valuenow="1"><span id="progressFill"></span></div>
+      <div class="chrome-actions"><span class="deck-label">PRODUCT LAUNCH · 2026</span><button class="menu-trigger" id="menuTrigger" type="button" aria-expanded="false" aria-controls="slideMenu"><span class="menu-dots" aria-hidden="true">•••</span><span class="menu-text">MENU</span></button></div>
+    </header>
+
+    <main class="slides" id="slides" aria-live="polite">
+      <section class="slide active" id="slide-1" data-title="The new workspace" aria-label="Slide 1 of 9: The new workspace">
+        <div class="cover-layout">
+          <div class="cover-copy reveal">
+            <p class="overline"><span class="live-dot"></span> INTRODUCING LUSTRO <span class="overline-line"></span> 01 / 09</p>
+            <h1>Make room<br>for <span class="gradient-text">good work.</span></h1>
+            <p class="lead">The calm, connected workspace that gives ambitious teams their focus back.</p>
+            <div class="cover-actions"><button class="button button-primary" data-goto="2">Explore the story <span aria-hidden="true">↗</span></button><span class="micro-note">A BETTER WAY TO BUILD, TOGETHER.</span></div>
+          </div>
+          <div class="cover-art reveal delay-2" aria-label="Illustration of the Lustro project dashboard">
+            <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit-core"><span>L</span></div>
+            <div class="float-card float-card-top"><span class="mini-icon purple">✦</span><span><b>Deep work</b><small>Focus mode is on</small></span><span class="toggle-on"></span></div>
+            <div class="float-card float-card-left"><span class="avatar avatar-a">A</span><span><b>Design review</b><small>4 teammates · just now</small></span><span class="tiny-arrow">↗</span></div>
+            <div class="float-card float-card-right"><span class="mini-icon pink">↗</span><span><b>Momentum</b><small>+28% this month</small></span></div>
+            <div class="spark spark-a"></div><div class="spark spark-b"></div>
+          </div>
+        </div>
+        <div class="cover-foot"><span>BUILT FOR THE WAY TEAMS WORK NOW</span><span class="scroll-cue">SCROLL TO EXPLORE <i></i></span></div>
+      </section>
+
+      <section class="slide" id="slide-2" data-title="The problem" aria-label="Slide 2 of 9: The problem">
+        <div class="section-heading reveal"><p class="overline">THE PROBLEM <span class="overline-line"></span> 02 / 09</p><h2>Busy is not the same<br>as <span class="gradient-text">moving forward.</span></h2><p class="lead">Work is everywhere. The context to do it well is nowhere.</p></div>
+        <div class="problem-grid reveal delay-1">
+          <article class="glass-card problem-card"><span class="card-index">01</span><div class="problem-visual visual-tabs"><i></i><i></i><i></i><b>12</b></div><h3>Too many tabs</h3><p>Plans in one tool. Feedback in another. The latest version? Somewhere in chat.</p></article>
+          <article class="glass-card problem-card"><span class="card-index">02</span><div class="problem-visual visual-pings"><b>•</b><b>•</b><b>•</b><i></i></div><h3>Constant interruption</h3><p>Notifications turn every thoughtful task into a dozen tiny restarts.</p></article>
+          <article class="glass-card problem-card"><span class="card-index">03</span><div class="problem-visual visual-fragment"><i></i><i></i><i></i><i></i></div><h3>Scattered context</h3><p>Teams lose momentum when decisions and useful details drift apart.</p></article>
+        </div>
+        <div class="stat-ribbon reveal delay-2"><span class="stat-number">6.2<span> hrs</span></span><span class="stat-copy">lost to switching and searching<br><small>EVERY WEEK, PER PERSON</small></span><span class="stat-source">THE COST OF DISCONNECTED WORK</span></div>
+      </section>
+
+      <section class="slide" id="slide-3" data-title="Meet Lustro" aria-label="Slide 3 of 9: Meet Lustro">
+        <div class="product-layout">
+          <div class="section-heading reveal"><p class="overline">MEET YOUR NEW WORKSPACE <span class="overline-line"></span> 03 / 09</p><h2>Everything in sync.<br><span class="gradient-text">Nothing in the way.</span></h2><p class="lead">Lustro brings your projects, people, and plans into one clear view, so the next step always feels obvious.</p><button class="text-link" data-goto="4">What you can do <span>→</span></button></div>
+          <div class="dashboard-wrap reveal delay-1"><div class="dashboard-window">
+            <div class="dash-sidebar"><div class="dash-brand"><span class="brand-glyph">L</span><b>lustro</b></div><small>WORKSPACE</small><div class="side-item selected"><i>◈</i> Overview</div><div class="side-item"><i>▦</i> My projects</div><div class="side-item"><i>◌</i> Inbox <em>3</em></div><small>YOUR SPACE</small><div class="side-item"><i>＋</i> Add a space</div><div class="side-profile"><span class="avatar avatar-b">M</span><span><b>Maya Chen</b><small>Free to focus</small></span><i>⌄</i></div></div>
+            <div class="dash-main"><div class="dash-top"><span>Monday, May 18, 2026</span><span class="dash-top-right">⌕ &nbsp; <span class="avatar avatar-c">J</span> <span class="avatar avatar-d">S</span> &nbsp; ●</span></div><div class="dash-greeting"><small>YOUR TEAM AT A GLANCE</small><h3>Good morning, Maya <span>✦</span></h3><p>Here’s what’s moving today.</p></div><div class="dash-metrics"><div><small>ACTIVE PROJECTS</small><b>08</b><span>↑ 2 this week</span></div><div><small>FOCUS TIME</small><b>4.6h</b><span>↑ 18% this week</span></div><div><small>TEAM PULSE</small><b>92%</b><span>On a good rhythm</span></div></div><div class="dash-lower"><div class="dash-panel"><div class="panel-heading"><b>Your priorities</b><small>VIEW ALL →</small></div><div class="task-row"><i class="check checked">✓</i><span>Finalize launch story</span><small>TODAY</small></div><div class="task-row"><i class="check"></i><span>Review new landing page</span><small>TODAY</small></div><div class="task-row"><i class="check"></i><span>Share weekly update</span><small>2:30 PM</small></div></div><div class="dash-panel activity"><div class="panel-heading"><b>Team pulse</b><small>THIS WEEK</small></div><div class="chart-bars"><i style="--h:38%"></i><i style="--h:62%"></i><i style="--h:48%"></i><i style="--h:83%"></i><i style="--h:66%"></i><i style="--h:100%"></i><i style="--h:76%"></i></div><div class="chart-labels"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div></div></div></div>
+          </div><div class="dashboard-glow"></div></div>
+        </div>
+      </section>
+
+      <section class="slide" id="slide-4" data-title="Made for momentum" aria-label="Slide 4 of 9: Made for momentum">
+        <div class="section-heading centered reveal"><p class="overline">ONE WORKSPACE, BETTER RHYTHM <span class="overline-line"></span> 04 / 09</p><h2>Made for <span class="gradient-text">momentum.</span></h2><p class="lead">The little things add up to a noticeably better day.</p></div>
+        <div class="feature-grid reveal delay-1">
+          <article class="glass-card feature-card"><div class="feature-icon icon-violet">◫</div><span class="feature-kicker">01 · FIND YOUR FLOW</span><h3>Focus, protected.</h3><p>Quiet hours and thoughtful notifications make space for uninterrupted work.</p><div class="feature-detail"><span>FOCUS MODE</span><span class="toggle-on"></span></div></article>
+          <article class="glass-card feature-card"><div class="feature-icon icon-pink">⌁</div><span class="feature-kicker">02 · STAY IN CONTEXT</span><h3>Work, connected.</h3><p>Keep the conversation, decisions, and files beside the work they belong to.</p><div class="feature-detail"><span>CONTEXT LINKS</span><b>Always close</b></div></article>
+          <article class="glass-card feature-card"><div class="feature-icon icon-cyan">◷</div><span class="feature-kicker">03 · SEE THE PICTURE</span><h3>Progress, visible.</h3><p>Simple project views show what’s moving, what’s next, and where to help.</p><div class="feature-detail"><span>TEAM MOMENTUM</span><b class="green-text">+18.4%</b></div></article>
+          <article class="glass-card feature-card"><div class="feature-icon icon-peach">✧</div><span class="feature-kicker">04 · MAKE IT YOURS</span><h3>Space, your way.</h3><p>Shape a workspace around your team’s real habits, not someone else’s template.</p><div class="feature-detail"><span>YOUR WORKSPACE</span><b>Feels like you ↗</b></div></article>
+        </div>
+        <p class="center-note reveal delay-2">LESS TOOL HOPPING. MORE GOOD WORK.</p>
+      </section>
+
+      <section class="slide" id="slide-5" data-title="A thoughtful roadmap" aria-label="Slide 5 of 9: A thoughtful roadmap">
+        <div class="section-heading reveal"><p class="overline">BUILT WITH INTENTION <span class="overline-line"></span> 05 / 09</p><h2>Useful now.<br><span class="gradient-text">Better every quarter.</span></h2><p class="lead">A clear path from the essentials to a more thoughtful way of working.</p></div>
+        <div class="roadmap reveal delay-1">
+          <div class="road-line"></div>
+          <article class="road-card done"><div class="quarter"><span>Q1</span><i>✓</i></div><small>NOW AVAILABLE</small><h3>Find your footing</h3><p>Projects, shared spaces, and a home for the work that matters.</p><div class="road-tags"><span>PROJECTS</span><span>SPACES</span></div></article>
+          <article class="road-card current"><div class="quarter"><span>Q2</span><i>✦</i></div><small>IN PROGRESS</small><h3>Work in rhythm</h3><p>Focus sessions, calendar views, and a calmer team inbox.</p><div class="road-tags"><span>FOCUS</span><span>CALENDAR</span></div></article>
+          <article class="road-card"><div class="quarter"><span>Q3</span><i>○</i></div><small>UP NEXT</small><h3>See the whole picture</h3><p>Shared goals and flexible dashboards built around your team.</p><div class="road-tags"><span>GOALS</span><span>INSIGHTS</span></div></article>
+          <article class="road-card"><div class="quarter"><span>Q4</span><i>○</i></div><small>ON THE HORIZON</small><h3>Make it yours</h3><p>Connected tools, custom workflows, and more ways to shape your space.</p><div class="road-tags"><span>INTEGRATIONS</span><span>WORKFLOWS</span></div></article>
+        </div>
+        <p class="roadmap-note"><span class="live-dot"></span> SHAPED BY CUSTOMER FEEDBACK, EVERY STEP OF THE WAY</p>
+      </section>
+
+      <section class="slide" id="slide-6" data-title="Early momentum" aria-label="Slide 6 of 9: Early momentum">
+        <div class="section-heading centered reveal"><p class="overline">THE EARLY SIGNALS <span class="overline-line"></span> 06 / 09</p><h2>A calmer way to work<br>is already <span class="gradient-text">working.</span></h2><p class="lead">A snapshot from teams building with Lustro in beta.</p></div>
+        <div class="metrics-grid reveal delay-1">
+          <article class="glass-card metric-card"><div class="metric-top"><span>WEEKLY ACTIVE TEAMS</span><i class="metric-arrow">↗</i></div><strong>2.4<span>k</span></strong><div class="sparkline sparkline-purple"><svg viewBox="0 0 220 55" preserveAspectRatio="none" aria-label="Weekly active teams trending upward"><path d="M0 47 C20 42 22 37 40 40 S70 27 88 31 S115 24 129 28 S154 10 169 17 S194 5 220 2"/></svg></div><small><b>+32%</b> over the last 30 days</small></article>
+          <article class="glass-card metric-card"><div class="metric-top"><span>FOCUS TIME SAVED</span><i class="metric-arrow">↗</i></div><strong>8.6<span>h</span></strong><div class="sparkline sparkline-pink"><svg viewBox="0 0 220 55" preserveAspectRatio="none" aria-label="Focus time trending upward"><path d="M0 43 C16 46 25 31 43 36 S65 25 83 31 S111 16 126 23 S149 18 163 10 S195 12 220 1"/></svg></div><small><b>+18%</b> reclaimed per person, weekly</small></article>
+          <article class="glass-card metric-card"><div class="metric-top"><span>TEAM HAPPINESS</span><i class="metric-arrow">↗</i></div><strong>94<span>%</span></strong><div class="sparkline sparkline-cyan"><svg viewBox="0 0 220 55" preserveAspectRatio="none" aria-label="Team happiness trending upward"><path d="M0 38 C21 40 28 27 45 31 S69 20 87 24 S107 14 126 20 S151 8 171 13 S197 6 220 2"/></svg></div><small><b>+11 pts</b> since joining the beta</small></article>
+        </div>
+        <blockquote class="quote-card reveal delay-2"><span class="quote-mark">“</span><p>It feels like someone finally cleared the desk so we could get back to the good part.</p><footer><span class="avatar avatar-e">R</span><span><b>Rae Okafor</b><small>CO-FOUNDER, NORTHSTAR STUDIO</small></span><span class="quote-stars">★★★★★</span></footer></blockquote>
+      </section>
+
+      <section class="slide" id="slide-7" data-title="A clearer choice" aria-label="Slide 7 of 9: A clearer choice">
+        <div class="section-heading centered reveal"><p class="overline">A CLEARER CHOICE <span class="overline-line"></span> 07 / 09</p><h2>Your tools should work<br>as well as <span class="gradient-text">your team.</span></h2><p class="lead">See what changes when the pieces finally fit together.</p></div>
+        <div class="compare-wrap reveal delay-1"><table class="compare-table"><thead><tr><th>WHAT MATTERS</th><th>THE USUAL WAY</th><th class="recommended"><span class="recommend-badge">THE LUSTRO WAY</span></th></tr></thead><tbody>
+          <tr><th>Finding project context</th><td><span class="minus">−</span> Search across different tools</td><td><span class="plus">✦</span> Decisions beside the work</td></tr>
+          <tr><th>Protecting focus time</th><td><span class="minus">−</span> Silence every notification</td><td><span class="plus">✦</span> Quiet hours with the right exceptions</td></tr>
+          <tr><th>Seeing team progress</th><td><span class="minus">−</span> Chase updates in chat</td><td><span class="plus">✦</span> A shared, live view</td></tr>
+          <tr><th>Getting started</th><td><span class="minus">−</span> A week of setup and training</td><td><span class="plus">✦</span> Start together in minutes</td></tr>
+          <tr><th>Making it feel like yours</th><td><span class="minus">−</span> Work around rigid templates</td><td><span class="plus">✦</span> Shape the space to fit</td></tr>
+        </tbody></table></div>
+        <p class="center-note reveal delay-2">A LITTLE LESS FRICTION CHANGES A LOT.</p>
+      </section>
+
+      <section class="slide" id="slide-8" data-title="Find your next favorite" aria-label="Slide 8 of 9: Find your next favorite">
+        <div class="section-heading centered reveal"><p class="overline">GOOD WORK, IN GOOD COMPANY <span class="overline-line"></span> 08 / 09</p><h2>Make Lustro <span class="gradient-text">yours.</span></h2><p class="lead">A few thoughtful places to start shaping your team’s space.</p></div>
+        <div class="promo-grid reveal delay-1">
+          <a href="#slide-4" class="glass-card promo-card promo-violet" data-goto="4"><div class="promo-illustration illu-flow"><i></i><i></i><i></i><b>↗</b></div><span class="promo-type">WORKSPACE GUIDE · 5 MIN</span><h3>Find your team’s flow</h3><p>Build a rhythm that leaves room for focused work.</p><span class="promo-link">EXPLORE THE GUIDE <b>↗</b></span></a>
+          <a href="#slide-5" class="glass-card promo-card promo-pink" data-goto="5"><div class="promo-illustration illu-road"><i></i><i></i><i></i><b>✦</b></div><span class="promo-type">WHAT’S NEXT · PRODUCT</span><h3>See what’s on the way</h3><p>Follow our roadmap and the ideas behind it.</p><span class="promo-link">VIEW THE ROADMAP <b>↗</b></span></a>
+          <a href="#slide-6" class="glass-card promo-card promo-cyan" data-goto="6"><div class="promo-illustration illu-community"><i>A</i><i>M</i><i>R</i><b>+</b></div><span class="promo-type">THE LUSTRO COMMUNITY</span><h3>Build alongside us</h3><p>Meet the early teams shaping a calmer future.</p><span class="promo-link">MEET THE COMMUNITY <b>↗</b></span></a>
+        </div>
+        <p class="center-note reveal delay-2">MADE WITH CARE. ALWAYS GETTING BETTER.</p>
+      </section>
+
+      <section class="slide closing-slide" id="slide-9" data-title="Let’s make room" aria-label="Slide 9 of 9: Let’s make room">
+        <div class="closing-glow" aria-hidden="true"></div><div class="closing-content reveal"><div class="closing-mark"><span>L</span></div><p class="overline">YOUR NEXT CHAPTER STARTS HERE <span class="overline-line"></span> 09 / 09</p><h2>Make room for<br><span class="gradient-text">what matters.</span></h2><p class="lead">Bring your team together. Find your focus. Get back to doing work you’re proud of.</p><a href="mailto:hello@lustro.example" class="button button-primary">Get early access <span aria-hidden="true">↗</span></a><p class="closing-note">FREE TO START <span>·</span> NO CREDIT CARD <span>·</span> YOUR TEAM IS INVITED</p></div><div class="closing-foot"><span class="wordmark-small">LUSTRO</span><span>MAKE GOOD WORK FEEL GOOD.</span></div>
+      </section>
+    </main>
+
+    <footer class="chrome bottom-chrome">
+      <div class="bottom-left"><span class="presenter-label">LUSTRO <i> / </i> PRODUCT STORY</span><span class="key-hint"><kbd>←</kbd><kbd>→</kbd> NAVIGATE <kbd>M</kbd> MENU</span></div>
+      <div class="navigation"><button class="nav-arrow" id="prevButton" type="button" aria-label="Previous slide">←</button><div class="slide-count"><span id="currentNumber">01</span><i>/</i><span>09</span></div><button class="nav-arrow" id="nextButton" type="button" aria-label="Next slide">→</button></div>
+    </footer>
+
+    <div class="menu-backdrop" id="menuBackdrop" hidden></div>
+    <nav class="slide-menu" id="slideMenu" aria-label="Jump to a slide" hidden><div class="menu-head"><div><span class="menu-eyebrow">PRESENTATION GUIDE</span><h2>Jump to a slide</h2></div><button class="menu-close" id="menuClose" type="button" aria-label="Close menu">×</button></div><div class="menu-list" id="menuList"></div><div class="menu-foot"><span>QUICK NAVIGATION</span><span><kbd>1–9</kbd> TO JUMP</span></div></nav>
+  </div>
+</body>
+</html>
