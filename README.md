@@ -21,7 +21,18 @@ An interactive, dark-mode product story for a calmer, more connected team worksp
 
 ## Website preview
 
-There is no screenshot image in the repository or available attachment, so this README does not embed a fabricated or broken preview. The site itself is the source of truth: run it locally using the steps below to explore the presentation.
+<p align="center">
+  <img src="assets/lustro-cover.png" alt="LUSTRO product launch presentation, opening slide" width="100%">
+</p>
+
+<details>
+<summary>View the closing slide</summary>
+<p align="center">
+  <img src="assets/lustro-closing.png" alt="LUSTRO product launch presentation, closing slide" width="100%">
+</p>
+</details>
+
+These screenshots show the opening and closing slides of the nine-slide presentation. Run the site locally using the steps below to explore the complete experience.
 
 > **Project scope:** LUSTRO is a static front-end product-story concept. The workspace screens, sample metrics, roadmap, and testimonials are illustrative presentation content—not a connected product, live analytics, or verified customer data.
 
@@ -78,6 +89,9 @@ lustro/
 ├── index.html   # Nine-slide presentation markup
 ├── style.css    # Theme, layout, responsive rules, and animations
 ├── script.js    # Slide navigation and interaction behavior
+├── assets/
+│   ├── lustro-cover.png   # Opening-slide screenshot
+│   └── lustro-closing.png # Closing-slide screenshot
 └── README.md    # Project overview and setup
 ```
 
