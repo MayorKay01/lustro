@@ -4,6 +4,10 @@
 
 ### Make room for good work.
 
+<p align="center">
+  <img src="assets/lustro-cover.png" alt="LUSTRO product launch presentation, opening slide" width="100%">
+</p>
+
 An interactive, dark-mode product story for a calmer, more connected team workspace.
 
 <br>
@@ -21,10 +25,6 @@ An interactive, dark-mode product story for a calmer, more connected team worksp
 
 ## Website preview
 
-<p align="center">
-  <img src="assets/lustro-cover.png" alt="LUSTRO product launch presentation, opening slide" width="100%">
-</p>
-
 <details>
 <summary>View the closing slide</summary>
 <p align="center">
@@ -32,7 +32,7 @@ An interactive, dark-mode product story for a calmer, more connected team worksp
 </p>
 </details>
 
-These screenshots show the opening and closing slides of the nine-slide presentation. Run the site locally using the steps below to explore the complete experience.
+The opening slide is featured above. Run the site locally using the steps below to explore the complete nine-slide presentation.
 
 > **Project scope:** LUSTRO is a static front-end product-story concept. The workspace screens, sample metrics, roadmap, and testimonials are illustrative presentation content—not a connected product, live analytics, or verified customer data.
 
